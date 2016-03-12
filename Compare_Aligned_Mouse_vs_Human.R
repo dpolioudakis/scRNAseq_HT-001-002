@@ -255,7 +255,7 @@ legend('topright', legend = paste(levels(hmStatsDF$Dead.or.Alive...), "-"
 dev.off()
 
 # Reads mapping to both mouse and human removed
-pdf(paste0(outGraphs, "Reads_Mapping_to_Human_vs_Mouse.pdf"))
+pdf(paste0(outGraphs, "Reads_Mapping_to_Human_vs_Mouse_xylimit.pdf"))
 plot(data.frame(hmRmbStatsDF$Uniquely_Mapped, msRmbStatsDF$Uniquely_Mapped)
      , col = hmRmbStatsDF$Dead.or.Alive...
      , cex = 0.75
@@ -272,6 +272,29 @@ points(data.frame(hmRmbStatsDF$Uniquely_Mapped[! hmRmbStatsDF$Dead.or.Alive... =
        , pch = 3, col = hmRmbStatsDF$Dead.or.Alive...[! hmRmbStatsDF$Dead.or.Alive... == "Not Visually QCed"], pal = palette()[-1])
 abline(v = 5*10^4)
 abline(h = 5*10^4)
+legend('topright', legend = paste(levels(hmRmbStatsDF$Dead.or.Alive...), "-"
+                                  , table(hmRmbStatsDF$Dead.or.Alive...))
+       , pch = 1, col = seq_along(levels(hmRmbStatsDF$Dead.or.Alive...)))
+dev.off()
+
+# Reads mapping to both mouse and human removed no x or y limits
+pdf(paste0(outGraphs, "Reads_Mapping_to_Human_vs_Mouse.pdf"))
+plot(data.frame(hmRmbStatsDF$Uniquely_Mapped, msRmbStatsDF$Uniquely_Mapped)
+     , col = hmRmbStatsDF$Dead.or.Alive...
+     , cex = 0.75
+     , xlab = "Reads Uniquely Mapped to Human"
+     , ylab = "Reads Uniquely Mapped to Mouse"
+     , main = paste0(graphCodeTitle
+                     , "\nUniquely Mapped Reads to Human or Mouse"
+                     , "\nReads Mapping to Both Human and Mouse Removed"))
+pal = palette()[-1]
+points(data.frame(hmRmbStatsDF$Uniquely_Mapped[! hmRmbStatsDF$Dead.or.Alive... == "Not Visually QCed"]
+                  , msRmbStatsDF$Uniquely_Mapped[! hmRmbStatsDF$Dead.or.Alive... == "Not Visually QCed"])
+       , pch = 3, col = hmRmbStatsDF$Dead.or.Alive...[! hmRmbStatsDF$Dead.or.Alive... == "Not Visually QCed"], pal = palette()[-1])
+abline(v = 5*10^4)
+abline(v = 10^5)
+abline(h = 5*10^4)
+abline(h = 10^5)
 legend('topright', legend = paste(levels(hmRmbStatsDF$Dead.or.Alive...), "-"
                                   , table(hmRmbStatsDF$Dead.or.Alive...))
        , pch = 1, col = seq_along(levels(hmRmbStatsDF$Dead.or.Alive...)))
@@ -358,6 +381,98 @@ legend('topright', legend = paste(levels(hmRmbStatsDF$Dead.or.Alive...), "-"
        , pch = 1, col = seq_along(levels(hmRmbStatsDF$Dead.or.Alive...)))
 dev.off()
 ################################################################################
+
+### Doublet rate calculation
+
+## Table of number of doublets, single human cells, single mouse cells
+# Cutoff 5*10^4
+doubletDF <- data.frame(
+  Human = nrow(hmRmbStatsDF[hmRmbStatsDF$Uniquely_Mapped > 5*10^4 & msRmbStatsDF$Uniquely_Mapped < 5*10^4, ])
+  , Mouse = nrow(hmRmbStatsDF[hmRmbStatsDF$Uniquely_Mapped < 5*10^4 & msRmbStatsDF$Uniquely_Mapped > 5*10^4, ])
+  , Doublet = nrow(hmRmbStatsDF[hmRmbStatsDF$Uniquely_Mapped > 5*10^4 & msRmbStatsDF$Uniquely_Mapped > 5*10^4, ])
+  , Low_Read_Depth = nrow(hmRmbStatsDF[hmRmbStatsDF$Uniquely_Mapped < 5*10^4 & msRmbStatsDF$Uniquely_Mapped < 5*10^4, ])
+)
+# Human Mouse Doublet Low_Read_Depth
+#   37   374      66            323
+
+# Percent mouse
+pMm <- doubletDF$Mouse / (doubletDF$Human + doubletDF$Mouse) #0.9099757
+# Percent human
+pHs <- doubletDF$Human / (doubletDF$Human + doubletDF$Mouse) #0.09002433
+
+# Probability
+# mouse human
+pMmHs <- pMm * pHs #0.08191995
+# human mouse 
+pMmHs <- pHs * pMm #0.08191995
+# human or mouse
+pMmOrHs <- pMmHs + pMmHs
+# mouse mouse
+pMmMm <- pMm * pMm #0.8280557
+# human human
+pHsHs <- pHs * pHs #0.00810438
+
+# Predicted total doublets
+# Caculated: Observed mouse human doublets / Probability of mouse human doublet
+pdDb <- doubletDF$Doublet / pMmOrHs #402
+pdDb * pMmMm #333.5676
+pdDb * pHsHs #3.264706
+pdDb * pMmOrHs #66
+
+# Percent doublets based off predicted total
+sum(doubletDF[ ,c("Human", "Mouse", "Doublet")]) #477
+402/477 #0.8427673
+# Percent doublets if there was an even probability of getting a mouse or human
+doubletDF$Doublet * 3 #198
+198/477 #0.42%
+
+## Table of number of doublets, single human cells, single mouse cells
+# Cutoff 10^5
+doubletDF <- data.frame(
+  Human = nrow(hmRmbStatsDF[hmRmbStatsDF$Uniquely_Mapped > 10^5 & msRmbStatsDF$Uniquely_Mapped < 10^5, ])
+  , Mouse = nrow(hmRmbStatsDF[hmRmbStatsDF$Uniquely_Mapped < 10^5 & msRmbStatsDF$Uniquely_Mapped > 10^5, ])
+  , Doublet = nrow(hmRmbStatsDF[hmRmbStatsDF$Uniquely_Mapped > 10^5 & msRmbStatsDF$Uniquely_Mapped > 10^5, ])
+  , Low_Read_Depth = nrow(hmRmbStatsDF[hmRmbStatsDF$Uniquely_Mapped < 10^5 & msRmbStatsDF$Uniquely_Mapped < 10^5, ])
+)
+#  Human Mouse Doublet Low_Read_Depth
+#   23   263      31            483
+
+# Percent mouse
+pMm <- doubletDF$Mouse / (doubletDF$Human + doubletDF$Mouse) #0.9195804
+# Percent human
+pHs <- doubletDF$Human / (doubletDF$Human + doubletDF$Mouse) #0.08041958
+
+# Probability
+# mouse human
+pMmHs <- pMm * pHs #0.07395227
+# human mouse 
+pMmHs <- pHs * pMm #0.07395227
+# human or mouse
+pMmOrHs <- pMmHs + pMmHs #0.1479045
+# mouse mouse
+pMmMm <- pMm * pMm #0.8456281
+# human human
+pHsHs <- pHs * pHs #0.006467309
+
+# Predicted total doublets
+# Caculated: Observed mouse human doublets / Probability of mouse human doublet
+pdDb <- doubletDF$Doublet / pMmOrHs #209.5946
+pdDb * pMmMm #177.2391
+pdDb * pHsHs #1.355513
+pdDb * pMmOrHs #31
+
+# Percent doublets based off predicted total
+sum(doubletDF[ ,c("Human", "Mouse", "Doublet")]) #317
+209.5946/317 #0.6611817
+# Percent doublets if there was an even probability of getting a mouse or human
+doubletDF$Doublet * 3 #93
+93/317 #29%
+################################################################################
+
+
+
+
+
 
 
 library(ggplot2)
