@@ -1,7 +1,7 @@
 
 # Damon Polioudakis
 # 2016-02-18
-# Add some RNA STAR statistics and Picard Statistics to sample metadata
+# Compare alignment of Fluidigm medium HT to human vs alignment to mouse
 # Gene Length and GC bias were calculated with Calc_Gene_Length_and_GC.R
 ################################################################################
 
