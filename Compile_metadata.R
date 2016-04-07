@@ -62,8 +62,8 @@ totReads <- (stStats1dF$Number.of.input.reads
 metDatDF$Total_Reads <- totReads
 
 # Uniquely Mapped - Convert % to numeric and multiply by number of reads in lane
-umReads <- (((as.numeric(sub("%", "", stStats1dF$Uniquely.mapped.reads..))/100) * stStats1dF$Number.of.input.reads)
-         + (((as.numeric(sub("%", "", stStats2dF$Uniquely.mapped.reads..))/100) * stStats2dF$Number.of.input.reads)))
+umReads <- (stStats1dF$Uniquely.mapped.reads.number + stStats2dF$Uniquely.mapped.reads.number)
+metDatDF$Uniquely_Mapped <- umReads
 # Percent Uniquely Mapped
 pctUMRds <- umReads / totReads
 metDatDF$Pct_Uniquely_Mapped <- pctUMRds
