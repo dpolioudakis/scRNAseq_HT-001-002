@@ -54,12 +54,16 @@ nMapHumanDF <- read.table("../metadata/Reads_Aligned_Only_Human.txt"
 pctHq <- picAlign[,"PF_HQ_ALIGNED_BASES"]/picAlign[,"PF_ALIGNED_BASES"]
 
 pdf("../analysis/graphs/Plot_QC_Percent_Location.pdf")
-boxplot(cbind(pctHq, picSeq[,c(15,11:14)]), ylab = "Percent of Bases"
+boxplot(cbind(pctHq, picSeq[,c(14, 10:13)]), ylab = "Percent of Bases"
         , main = "Plot_and_Compile_QC_Stats.R
 RNA-seq QC metrics across samples"
-        , names = c("High\nQuality", "mRNA\nBases", "Protein\nCoding"
-                    , "Untranslated\nRegion", "Intronic\nRegion"
-                    , "Intergenic\nRegion"), ylim = c(0, 1))
+        , names = c("High\nQuality"
+                    , "mRNA\nBases"
+                    , "Protein\nCoding"
+                    , "Untranslated\nRegion"
+                    , "Intronic\nRegion"
+                    , "Intergenic\nRegion")
+        , ylim = c(0, 1))
 dev.off()
 ################################################################################
 
@@ -71,7 +75,9 @@ colnames(ggDF) <- c("Total", "Coding", "Intronic", "Intergenic")
 ggDF <- melt(ggDF)
 
 ggplot(ggDF, aes(x = variable, y = value, col = variable)) +
-  geom_boxplot(aes()) +
+  geom_boxplot(outlier.shape = NA) +
+  # Adjust limits after outlier removal
+  coord_cartesian(ylim = range(boxplot(ggDF[ggDF$variable == "Total", ]$value, plot = FALSE)$stats) * c(.9, 1.1)) +
   theme_bw(base_size = 18) +
   guides(col = FALSE) +
   ylab("Number of Fragments Aligned") +
