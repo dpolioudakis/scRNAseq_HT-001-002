@@ -1,6 +1,8 @@
 # Damon Polioudakis
 # 2016-03-09
 # Calculate gene length and GC content for exon union of each gene in list
+# If GC content and exon union have already been calculated for reference,
+# can skip to last section and load
 ################################################################################
 
 rm(list = ls())
@@ -121,9 +123,6 @@ geneDatX <- makeGeneRepresentation(annoData = geneDat1
 
 save(geneDatX, file = "../../source/Genominator_Union_Exon_Models_ENSEMBLhg19.rda")
 load(file = "../../source/Genominator_Union_Exon_Models_ENSEMBLhg19.rda")
-
-## Check exon union lengths versus longest isoform length
-cor
 ################################################################################
 
 ### Now use the genominator output to calculate GC content - Use mac laptop
