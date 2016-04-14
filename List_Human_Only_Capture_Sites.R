@@ -70,13 +70,21 @@ visualQCdF$Dead.or.Alive... <- gsub("\\?", "Stained for Both", visualQCdF$Dead.o
 ################################################################################
 
 ### Determine human only capture sites
-### Could also filter using visual QC data but have not done this yet
 
+## Select human only capture sites
 names <- nMapHumanDF$SampleID[nMapHumanDF$Uniquely_Mapped > 10^5
                                        & nMapMouseDF$Uniquely_Mapped < 10^5]
 length(names)
 # 23
 
+## Filter using visual QC data
+# 1 capture site is multiple, removed
+visualQCdF[match(names, visualQCdF$HTseq_IDs), ]
+names <- names[! names == "HT_ROW20_N719"]
+length(names)
+# 22
+
+## Write out as list
 write.table(names
       , file = "../analysis/tables/Human_Only_Capture_Sites_10^5Hs_10^5Mm.txt"
       , quote = FALSE, row.names = FALSE, col.names = FALSE)
