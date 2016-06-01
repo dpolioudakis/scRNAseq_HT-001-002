@@ -270,8 +270,8 @@ pal = palette()[-1]
 points(data.frame(hmRmbStatsDF$Uniquely_Mapped[! hmRmbStatsDF$Dead.or.Alive... == "Not Visually QCed"]
                   , msRmbStatsDF$Uniquely_Mapped[! hmRmbStatsDF$Dead.or.Alive... == "Not Visually QCed"])
        , pch = 3, col = hmRmbStatsDF$Dead.or.Alive...[! hmRmbStatsDF$Dead.or.Alive... == "Not Visually QCed"], pal = palette()[-1])
-abline(v = 5*10^4)
-abline(h = 5*10^4)
+abline(v = 10^5)
+abline(h = 10^5)
 legend('topright', legend = paste(levels(hmRmbStatsDF$Dead.or.Alive...), "-"
                                   , table(hmRmbStatsDF$Dead.or.Alive...))
        , pch = 1, col = seq_along(levels(hmRmbStatsDF$Dead.or.Alive...)))
@@ -291,9 +291,7 @@ pal = palette()[-1]
 points(data.frame(hmRmbStatsDF$Uniquely_Mapped[! hmRmbStatsDF$Dead.or.Alive... == "Not Visually QCed"]
                   , msRmbStatsDF$Uniquely_Mapped[! hmRmbStatsDF$Dead.or.Alive... == "Not Visually QCed"])
        , pch = 3, col = hmRmbStatsDF$Dead.or.Alive...[! hmRmbStatsDF$Dead.or.Alive... == "Not Visually QCed"], pal = palette()[-1])
-abline(v = 5*10^4)
 abline(v = 10^5)
-abline(h = 5*10^4)
 abline(h = 10^5)
 legend('topright', legend = paste(levels(hmRmbStatsDF$Dead.or.Alive...), "-"
                                   , table(hmRmbStatsDF$Dead.or.Alive...))
