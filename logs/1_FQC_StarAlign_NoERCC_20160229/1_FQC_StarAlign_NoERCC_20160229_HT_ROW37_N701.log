@@ -1,0 +1,26 @@
+
+Starting 1_FQC_StarAlign_NoERCC.sh... Mon Feb 29 16:50:58 PST 2016
+
+Sample:
+HT_ROW37_N701
+FastQC already performed for this sample lane
+Feb 29 16:50:58 ..... Started STAR run
+Feb 29 16:51:11 ..... Started mapping
+Feb 29 16:51:13 ..... Started sorting BAM
+Feb 29 16:51:14 ..... Finished successfully
+STAR alignment complete
+
+End of 1_FQC_StarAlign_NoERCC.sh... Mon Feb 29 16:51:14 PST 2016
+
+Starting 1_FQC_StarAlign_NoERCC.sh... Mon Feb 29 19:44:23 PST 2016
+
+Sample:
+HT_ROW37_N701
+FastQC already performed for this sample lane
+Feb 29 19:44:23 ..... Started STAR run
+Feb 29 19:45:36 ..... Started mapping
+Feb 29 19:45:38 ..... Started sorting BAM
+Feb 29 19:45:38 ..... Finished successfully
+STAR alignment complete
+
+End of 1_FQC_StarAlign_NoERCC.sh... Mon Feb 29 19:45:39 PST 2016

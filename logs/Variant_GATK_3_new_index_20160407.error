@@ -1,0 +1,5 @@
+
+EXITING because of FATAL error, the sjdb chromosome Error is not found among the genomic chromosomes
+SOLUTION: fix your file(s) --sjdbFileChrStartEnd, offending junciton:Error	0	130210615
+
+Apr 07 16:13:09 ...... FATAL ERROR, exiting

@@ -1,0 +1,316 @@
+
+In Lane dir:
+../data/fastq/SxaQSEQsXap096L1
+In dir:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed
+Out dir:
+../data/fastq/SxaQSEQsXap096L1
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N701.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N701_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N701.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N701_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N702.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N702_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N702.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N702_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N703.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N703_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N703.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N703_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N704.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N704_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N704.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N704_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N705.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N705_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N705.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N705_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N706.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N706_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N706.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N706_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N707.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N707_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N707.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N707_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N710.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N710_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N710.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N710_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N711.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N711_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N711.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N711_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N712.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N712_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N712.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N712_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N714.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N714_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N714.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N714_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N715.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N715_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N715.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N715_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N716.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N716_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N716.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N716_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N718.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N718_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N718.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N718_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N719.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N719_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N719.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N719_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N720.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N720_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N720.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N720_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N721.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N721_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N721.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N721_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N722.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N722_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N722.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N722_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N723.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N723_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N723.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N723_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N724.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N724_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/N724.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_N724_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/qseq_to_fastq_processing_files to ../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/HT_qseq_to_fastq_processing_files
+Submitting Fluidigm demultiplex script for:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed
+Your job 242350 ("FDM") has been submitted
+
+In Lane dir:
+../data/fastq/SxaQSEQsXap096L2
+In dir:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed
+Out dir:
+../data/fastq/SxaQSEQsXap096L2
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N701.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N701_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N701.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N701_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N702.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N702_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N702.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N702_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N703.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N703_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N703.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N703_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N704.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N704_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N704.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N704_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N705.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N705_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N705.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N705_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N706.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N706_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N706.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N706_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N707.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N707_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N707.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N707_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N710.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N710_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N710.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N710_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N711.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N711_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N711.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N711_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N712.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N712_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N712.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N712_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N714.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N714_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N714.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N714_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N715.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N715_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N715.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N715_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N716.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N716_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N716.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N716_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N718.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N718_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N718.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N718_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N719.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N719_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N719.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N719_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N720.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N720_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N720.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N720_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N721.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N721_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N721.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N721_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N722.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N722_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N722.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N722_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N723.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N723_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N723.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N723_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N724.R1.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N724_R1.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/N724.R2.fastq.gz to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_N724_R2.fastq.gz
+Renaming:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/qseq_to_fastq_processing_files to ../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/HT_qseq_to_fastq_processing_files
+Submitting Fluidigm demultiplex script for:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed
+Your job 242351 ("FDM") has been submitted
+
+In Lane dir:
+../data/fastq/SxaQSEQsXap096L1
+In dir:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed
+Out dir:
+../data/fastq/SxaQSEQsXap096L1
+Submitting Fluidigm demultiplex script for:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed
+Your job 242353 ("FDM") has been submitted
+
+In Lane dir:
+../data/fastq/SxaQSEQsXap096L2
+In dir:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed
+Out dir:
+../data/fastq/SxaQSEQsXap096L2
+Submitting Fluidigm demultiplex script for:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed
+Your job 242354 ("FDM") has been submitted
+
+In Lane dir:
+../data/fastq/SxaQSEQsXap096L1
+In dir:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed
+Out dir:
+../data/fastq/SxaQSEQsXap096L1
+Submitting Fluidigm demultiplex script for:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed
+Your job 242359 ("FDM") has been submitted
+
+In Lane dir:
+../data/fastq/SxaQSEQsXap096L2
+In dir:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed
+Out dir:
+../data/fastq/SxaQSEQsXap096L2
+Submitting Fluidigm demultiplex script for:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed
+Your job 242360 ("FDM") has been submitted
+
+In Lane dir:
+../data/fastq/SxaQSEQsXap096L1
+In dir:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/
+Out dir:
+../data/fastq/SxaQSEQsXap096L1/
+Submitting Fluidigm demultiplex script for:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/
+Your job 242377 ("FDM") has been submitted
+
+In Lane dir:
+../data/fastq/SxaQSEQsXap096L2
+In dir:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/
+Out dir:
+../data/fastq/SxaQSEQsXap096L2/
+Submitting Fluidigm demultiplex script for:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/
+Your job 242378 ("FDM") has been submitted
+
+In Lane dir:
+../data/fastq/SxaQSEQsXap096L1
+Lane:
+SxaQSEQsXap096L1
+In dir:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/
+Out dir:
+../data/fastq/SxaQSEQsXap096L1/
+Submitting Fluidigm demultiplex script for:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed/
+Your job 242380 ("FDM") has been submitted
+
+In Lane dir:
+../data/fastq/SxaQSEQsXap096L2
+Lane:
+SxaQSEQsXap096L2
+In dir:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/
+Out dir:
+../data/fastq/SxaQSEQsXap096L2/
+Submitting Fluidigm demultiplex script for:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed/
+Your job 242381 ("FDM") has been submitted
+
+In Lane dir:
+../data/fastq/SxaQSEQsXap096L1
+Lane:
+SxaQSEQsXap096L1
+In dir:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed
+Out dir:
+../data/fastq/SxaQSEQsXap096L1
+Submitting Fluidigm demultiplex script for:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed
+Your job 242383 ("FDM") has been submitted
+
+In Lane dir:
+../data/fastq/SxaQSEQsXap096L2
+Lane:
+SxaQSEQsXap096L2
+In dir:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed
+Out dir:
+../data/fastq/SxaQSEQsXap096L2
+Submitting Fluidigm demultiplex script for:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed
+Your job 242384 ("FDM") has been submitted
+
+In Lane dir:
+../data/fastq/SxaQSEQsXap096L1
+Lane:
+SxaQSEQsXap096L1
+In dir:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed
+Out dir:
+../data/fastq/SxaQSEQsXap096L1
+Submitting Fluidigm demultiplex script for:
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed
+Your job 242386 ("FDM") has been submitted
+
+In Lane dir:
+../data/fastq/SxaQSEQsXap096L2
+Lane:
+SxaQSEQsXap096L2
+In dir:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed
+Out dir:
+../data/fastq/SxaQSEQsXap096L2
+Submitting Fluidigm demultiplex script for:
+../data/fastq/SxaQSEQsXap096L2/fastq_not_demultiplexed
+Your job 242387 ("FDM") has been submitted

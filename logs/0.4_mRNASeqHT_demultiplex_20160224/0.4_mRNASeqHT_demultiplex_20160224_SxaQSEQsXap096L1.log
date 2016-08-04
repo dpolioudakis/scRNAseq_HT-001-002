@@ -1,0 +1,60 @@
+process fastq data for sample HT_N721
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N721_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N721_R2.fastq
+process fastq data for sample HT_N704
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N704_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N704_R2.fastq
+process fastq data for sample HT_N714
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N714_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N714_R2.fastq
+process fastq data for sample HT_N701
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N701_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N701_R2.fastq
+process fastq data for sample HT_N724
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N724_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N724_R2.fastq
+process fastq data for sample HT_N722
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N722_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N722_R2.fastq
+process fastq data for sample HT_N712
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N712_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N712_R2.fastq
+process fastq data for sample HT_N702
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N702_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N702_R2.fastq
+process fastq data for sample HT_N723
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N723_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N723_R2.fastq
+process fastq data for sample HT_N716
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N716_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N716_R2.fastq
+process fastq data for sample HT_N707
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N707_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N707_R2.fastq
+process fastq data for sample HT_N720
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N720_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N720_R2.fastq
+process fastq data for sample HT_N710
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N710_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N710_R2.fastq
+process fastq data for sample HT_N715
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N715_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N715_R2.fastq
+process fastq data for sample HT_N719
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N719_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N719_R2.fastq
+process fastq data for sample HT_N711
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N711_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N711_R2.fastq
+process fastq data for sample HT_N705
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N705_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N705_R2.fastq
+process fastq data for sample HT_N703
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N703_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N703_R2.fastq
+process fastq data for sample HT_N718
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N718_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N718_R2.fastq
+process fastq data for sample HT_N706
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N706_R1.fastq
+../data/fastq/SxaQSEQsXap096L1/fastq_not_demultiplexed//HT_N706_R2.fastq

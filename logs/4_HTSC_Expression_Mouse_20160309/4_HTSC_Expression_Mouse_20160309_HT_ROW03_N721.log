@@ -1,0 +1,19 @@
+
+Starting 4_HTSC_Expression_Mouse.sh... Wed Mar 9 15:03:32 PST 2016
+
+In bam:
+../data/bam/mouse/merged/HT_ROW03_N721/markdup_sorted.bam
+SampleID:
+HT_ROW03_N721
+Out dir:
+../data/htseq/mouse/merged
+Start samtools sorting by name on...:
+../data/bam/mouse/merged/HT_ROW03_N721/markdup_sorted.bam
+Done samtools sorting by name, output:
+../data/bam/mouse/merged/HT_ROW03_N721/markdup_name_sorted.bam
+Started HTSC on...:
+../data/bam/mouse/merged/HT_ROW03_N721/markdup_name_sorted.bam
+Saving HTSC exon union results to...: ../data/htseq/mouse/merged/HT_ROW03_N721_exon_union_count.txt
+Saving HTSC gene union results to...: ../data/htseq/mouse/merged/HT_ROW03_N721_gene_union_count.txt
+
+End of 4_HTSC_Expression_Mouse.sh... Wed Mar 9 15:13:50 PST 2016

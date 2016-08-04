@@ -1,0 +1,30 @@
+
+Starting 1_FQC_StarAlign.sh... Wed Feb 24 17:07:58 PST 2016
+
+HT_ROW07_N716
+Script is beginning...
+Analysis complete for HT_ROW07_N716_R1.fastq
+Analysis complete for HT_ROW07_N716_R2.fastq
+FastQC complete
+Feb 24 17:08:08 ..... Started STAR run
+Feb 24 17:20:37 ..... Started mapping
+Feb 24 17:20:40 ..... Started sorting BAM
+Feb 24 17:20:40 ..... Finished successfully
+STAR alignment complete
+
+End of 1_FQC_StarAlign.sh... Wed Feb 24 17:20:41 PST 2016
+
+Starting 1_FQC_StarAlign.sh... Thu Feb 25 01:58:13 PST 2016
+
+HT_ROW07_N716
+Script is beginning...
+Analysis complete for HT_ROW07_N716_R1.fastq
+Analysis complete for HT_ROW07_N716_R2.fastq
+FastQC complete
+Feb 25 01:58:21 ..... Started STAR run
+Feb 25 01:58:51 ..... Started mapping
+Feb 25 01:58:52 ..... Started sorting BAM
+Feb 25 01:58:53 ..... Finished successfully
+STAR alignment complete
+
+End of 1_FQC_StarAlign.sh... Thu Feb 25 01:58:54 PST 2016

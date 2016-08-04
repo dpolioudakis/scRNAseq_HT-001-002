@@ -1,0 +1,24 @@
+
+Starting 1_FQC_StarAlign_Mouse.sh... Thu Feb 25 20:43:07 PST 2016
+
+Sample:
+HT_ROW26_N720
+Feb 25 20:43:07 ..... Started STAR run
+Feb 25 20:51:54 ..... Started mapping
+Feb 25 20:51:56 ..... Started sorting BAM
+Feb 25 20:51:56 ..... Finished successfully
+STAR alignment complete
+
+End of 1_FQC_StarAlign_Mouse.sh... Thu Feb 25 20:51:57 PST 2016
+
+Starting 1_FQC_StarAlign_Mouse.sh... Fri Feb 26 01:44:21 PST 2016
+
+Sample:
+HT_ROW26_N720
+Feb 26 01:44:21 ..... Started STAR run
+Feb 26 01:46:25 ..... Started mapping
+Feb 26 01:46:27 ..... Started sorting BAM
+Feb 26 01:46:27 ..... Finished successfully
+STAR alignment complete
+
+End of 1_FQC_StarAlign_Mouse.sh... Fri Feb 26 01:46:27 PST 2016

@@ -1,0 +1,83 @@
+[Thu Feb 25 18:22:37 PST 2016] picard.sam.BuildBamIndex INPUT=../data/bam/merged/HT_ROW39_N723/Aligned.sortedByCoord.out.bam    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Feb 25 18:22:37 PST 2016] Executing as dpolioud@dg-compute-0-0.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+[Thu Feb 25 18:22:37 PST 2016] picard.sam.BuildBamIndex done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+To get help, see http://broadinstitute.github.io/picard/index.html#GettingHelp
+Exception in thread "main" htsjdk.samtools.SAMException: Cannot read non-existent file: /geschwindlabshares/RNAseq_singlecellfetal/HT-001-002_DP/code/../data/bam/merged/HT_ROW39_N723/Aligned.sortedByCoord.out.bam
+	at htsjdk.samtools.util.IOUtil.assertFileIsReadable(IOUtil.java:308)
+	at picard.sam.BuildBamIndex.doWork(BuildBamIndex.java:124)
+	at picard.cmdline.CommandLineProgram.instanceMain(CommandLineProgram.java:206)
+	at picard.cmdline.PicardCommandLine.instanceMain(PicardCommandLine.java:95)
+	at picard.cmdline.PicardCommandLine.main(PicardCommandLine.java:105)
+[Thu Feb 25 18:22:37 PST 2016] picard.sam.ReorderSam INPUT=../data/bam/merged/HT_ROW39_N723/Aligned.sortedByCoord.out.bam OUTPUT=../data/bam/merged/HT_ROW39_N723/reordered_reads.bam REFERENCE=/geschwindlabshares/RNAseq_singlecellfetal/kriegstein_2015/source/Homo_sapiens.GRCh37.75.dna.primary_assembly.fa TMP_DIR=[../data/bam/merged/HT_ROW39_N723/tmp]    ALLOW_INCOMPLETE_DICT_CONCORDANCE=false ALLOW_CONTIG_LENGTH_DISCORDANCE=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Feb 25 18:22:37 PST 2016] Executing as dpolioud@dg-compute-0-0.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+[Thu Feb 25 18:22:37 PST 2016] picard.sam.ReorderSam done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+To get help, see http://broadinstitute.github.io/picard/index.html#GettingHelp
+Exception in thread "main" htsjdk.samtools.SAMException: Cannot read non-existent file: /geschwindlabshares/RNAseq_singlecellfetal/HT-001-002_DP/code/../data/bam/merged/HT_ROW39_N723/Aligned.sortedByCoord.out.bam
+	at htsjdk.samtools.util.IOUtil.assertFileIsReadable(IOUtil.java:308)
+	at picard.sam.ReorderSam.doWork(ReorderSam.java:95)
+	at picard.cmdline.CommandLineProgram.instanceMain(CommandLineProgram.java:206)
+	at picard.cmdline.PicardCommandLine.instanceMain(PicardCommandLine.java:95)
+	at picard.cmdline.PicardCommandLine.main(PicardCommandLine.java:105)
+[Thu Feb 25 18:22:37 PST 2016] picard.analysis.CollectAlignmentSummaryMetrics ADAPTER_SEQUENCE=[] REFERENCE_SEQUENCE=/geschwindlabshares/RNAseq_singlecellfetal/kriegstein_2015/source/Homo_sapiens.GRCh37.75.dna.primary_assembly.fa INPUT=../data/bam/merged/HT_ROW39_N723/reordered_reads.bam OUTPUT=../data/bam/merged/HT_ROW39_N723/alignment_stats.txt ASSUME_SORTED=false    MAX_INSERT_SIZE=100000 METRIC_ACCUMULATION_LEVEL=[ALL_READS] IS_BISULFITE_SEQUENCED=false STOP_AFTER=0 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Feb 25 18:22:37 PST 2016] Executing as dpolioud@dg-compute-0-0.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+[Thu Feb 25 18:22:37 PST 2016] picard.analysis.CollectAlignmentSummaryMetrics done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+To get help, see http://broadinstitute.github.io/picard/index.html#GettingHelp
+Exception in thread "main" htsjdk.samtools.SAMException: Cannot read non-existent file: /geschwindlabshares/RNAseq_singlecellfetal/HT-001-002_DP/code/../data/bam/merged/HT_ROW39_N723/reordered_reads.bam
+	at htsjdk.samtools.util.IOUtil.assertFileIsReadable(IOUtil.java:308)
+	at picard.analysis.SinglePassSamProgram.makeItSo(SinglePassSamProgram.java:64)
+	at picard.analysis.SinglePassSamProgram.doWork(SinglePassSamProgram.java:53)
+	at picard.cmdline.CommandLineProgram.instanceMain(CommandLineProgram.java:206)
+	at picard.cmdline.PicardCommandLine.instanceMain(PicardCommandLine.java:95)
+	at picard.cmdline.PicardCommandLine.main(PicardCommandLine.java:105)
+[Thu Feb 25 18:22:38 PST 2016] picard.analysis.CollectRnaSeqMetrics REF_FLAT=/geschwindlabshares/RNAseq_singlecellfetal/kriegstein_2015/source/refFlat.v19.txt STRAND_SPECIFICITY=NONE INPUT=../data/bam/merged/HT_ROW39_N723/reordered_reads.bam OUTPUT=../data/bam/merged/HT_ROW39_N723/rnaseq_stats.txt ASSUME_SORTED=false REFERENCE_SEQUENCE=/geschwindlabshares/RNAseq_singlecellfetal/kriegstein_2015/source/Homo_sapiens.GRCh37.75.dna.primary_assembly.fa    MINIMUM_LENGTH=500 RRNA_FRAGMENT_PERCENTAGE=0.8 METRIC_ACCUMULATION_LEVEL=[ALL_READS] STOP_AFTER=0 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Feb 25 18:22:38 PST 2016] Executing as dpolioud@dg-compute-0-0.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+[Thu Feb 25 18:22:38 PST 2016] picard.analysis.CollectRnaSeqMetrics done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+To get help, see http://broadinstitute.github.io/picard/index.html#GettingHelp
+Exception in thread "main" htsjdk.samtools.SAMException: Cannot read non-existent file: /geschwindlabshares/RNAseq_singlecellfetal/HT-001-002_DP/code/../data/bam/merged/HT_ROW39_N723/reordered_reads.bam
+	at htsjdk.samtools.util.IOUtil.assertFileIsReadable(IOUtil.java:308)
+	at picard.analysis.SinglePassSamProgram.makeItSo(SinglePassSamProgram.java:64)
+	at picard.analysis.SinglePassSamProgram.doWork(SinglePassSamProgram.java:53)
+	at picard.cmdline.CommandLineProgram.instanceMain(CommandLineProgram.java:206)
+	at picard.cmdline.PicardCommandLine.instanceMain(PicardCommandLine.java:95)
+	at picard.cmdline.PicardCommandLine.main(PicardCommandLine.java:105)
+[Thu Feb 25 18:22:38 PST 2016] picard.analysis.CollectGcBiasMetrics CHART_OUTPUT=../data/bam/merged/HT_ROW39_N723/gcbias_chart.pdf SUMMARY_OUTPUT=../data/bam/merged/HT_ROW39_N723/gcbias_summary.txt INPUT=../data/bam/merged/HT_ROW39_N723/reordered_reads.bam OUTPUT=../data/bam/merged/HT_ROW39_N723/gcbias_stats.txt ASSUME_SORTED=false REFERENCE_SEQUENCE=/geschwindlabshares/RNAseq_singlecellfetal/kriegstein_2015/source/Homo_sapiens.GRCh37.75.dna.primary_assembly.fa    WINDOW_SIZE=100 MINIMUM_GENOME_FRACTION=1.0E-5 IS_BISULFITE_SEQUENCED=false STOP_AFTER=0 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Feb 25 18:22:38 PST 2016] Executing as dpolioud@dg-compute-0-0.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+[Thu Feb 25 18:22:38 PST 2016] picard.analysis.CollectGcBiasMetrics done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+To get help, see http://broadinstitute.github.io/picard/index.html#GettingHelp
+Exception in thread "main" htsjdk.samtools.SAMException: Cannot read non-existent file: /geschwindlabshares/RNAseq_singlecellfetal/HT-001-002_DP/code/../data/bam/merged/HT_ROW39_N723/reordered_reads.bam
+	at htsjdk.samtools.util.IOUtil.assertFileIsReadable(IOUtil.java:308)
+	at picard.analysis.SinglePassSamProgram.makeItSo(SinglePassSamProgram.java:64)
+	at picard.analysis.SinglePassSamProgram.doWork(SinglePassSamProgram.java:53)
+	at picard.cmdline.CommandLineProgram.instanceMain(CommandLineProgram.java:206)
+	at picard.cmdline.PicardCommandLine.instanceMain(PicardCommandLine.java:95)
+	at picard.cmdline.PicardCommandLine.main(PicardCommandLine.java:105)
+[Thu Feb 25 18:22:39 PST 2016] picard.sam.markduplicates.MarkDuplicates INPUT=[../data/bam/merged/HT_ROW39_N723/reordered_reads.bam] OUTPUT=../data/bam/merged/HT_ROW39_N723/reordered_duplication_marked_reads.bam METRICS_FILE=../data/bam/merged/HT_ROW39_N723/duplication_stats.txt REMOVE_DUPLICATES=false ASSUME_SORTED=false TMP_DIR=[../data/bam/merged/HT_ROW39_N723/tmp]    MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=8000 SORTING_COLLECTION_SIZE_RATIO=0.25 PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates DUPLICATE_SCORING_STRATEGY=SUM_OF_BASE_QUALITIES READ_NAME_REGEX=[a-zA-Z0-9]+:[0-9]:([0-9]+):([0-9]+):([0-9]+).* OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Feb 25 18:22:39 PST 2016] Executing as dpolioud@dg-compute-0-0.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+[Thu Feb 25 18:22:39 PST 2016] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+To get help, see http://broadinstitute.github.io/picard/index.html#GettingHelp
+Exception in thread "main" htsjdk.samtools.SAMException: Cannot read non-existent file: /geschwindlabshares/RNAseq_singlecellfetal/HT-001-002_DP/code/../data/bam/merged/HT_ROW39_N723/reordered_reads.bam
+	at htsjdk.samtools.util.IOUtil.assertFileIsReadable(IOUtil.java:308)
+	at htsjdk.samtools.util.IOUtil.assertInputIsValid(IOUtil.java:281)
+	at htsjdk.samtools.util.IOUtil.assertInputsAreValid(IOUtil.java:336)
+	at picard.sam.markduplicates.MarkDuplicates.doWork(MarkDuplicates.java:108)
+	at picard.cmdline.CommandLineProgram.instanceMain(CommandLineProgram.java:206)
+	at picard.cmdline.PicardCommandLine.instanceMain(PicardCommandLine.java:95)
+	at picard.cmdline.PicardCommandLine.main(PicardCommandLine.java:105)
+[E::hts_open] fail to open file '../data/bam/merged/HT_ROW39_N723/reordered_duplication_marked_reads.bam'
+samtools: failed to open "../data/bam/merged/HT_ROW39_N723/reordered_duplication_marked_reads.bam" for reading: No such file or directory
+[Thu Feb 25 18:22:39 PST 2016] picard.sam.SortSam INPUT=../data/bam/merged/HT_ROW39_N723/PEmatched_markdup.bam OUTPUT=../data/bam/merged/HT_ROW39_N723/PEmatched_markdup_sorted.bam SORT_ORDER=coordinate TMP_DIR=[../data/bam/merged/HT_ROW39_N723/tmp2]    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Feb 25 18:22:39 PST 2016] Executing as dpolioud@dg-compute-0-0.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+INFO	2016-02-25 18:22:39	SortSam	Finished reading inputs, merging and writing to output now.
+[Thu Feb 25 18:22:39 PST 2016] picard.sam.SortSam done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+[Thu Feb 25 18:22:40 PST 2016] picard.sam.BuildBamIndex INPUT=../data/bam/merged/HT_ROW39_N723/PEmatched_markdup_sorted.bam    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Feb 25 18:22:40 PST 2016] Executing as dpolioud@dg-compute-0-0.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+INFO	2016-02-25 18:22:40	BuildBamIndex	Successfully wrote bam index file /geschwindlabshares/RNAseq_singlecellfetal/HT-001-002_DP/code/../data/bam/merged/HT_ROW39_N723/PEmatched_markdup_sorted.bai
+[Thu Feb 25 18:22:40 PST 2016] picard.sam.BuildBamIndex done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272

@@ -1,0 +1,19 @@
+
+Starting 4_HTSC_Expression.sh... Mon Feb 29 13:07:58 PST 2016
+
+In bam:
+../data/bam/merged/HT_ROW24_N722/markdup_sorted.bam
+SampleID:
+HT_ROW24_N722
+Out dir:
+../data/htseq/merged
+Start samtools sorting by name on...:
+../data/bam/merged/HT_ROW24_N722/markdup_sorted.bam
+Done samtools sorting by name, output:
+../data/bam/merged/HT_ROW24_N722/markdup_name_sorted.bam
+Started HTSC on...:
+../data/bam/merged/HT_ROW24_N722/markdup_name_sorted.bam
+Saving HTSC exon union results to...: ../data/htseq/merged/HT_ROW24_N722_exon_union_count.txt
+Saving HTSC gene union results to...: ../data/htseq/merged/HT_ROW24_N722_gene_union_count.txt
+
+End of 4_HTSC_Expression.sh... Mon Feb 29 13:20:48 PST 2016

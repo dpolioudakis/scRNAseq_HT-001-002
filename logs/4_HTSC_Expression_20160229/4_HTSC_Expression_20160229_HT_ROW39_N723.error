@@ -1,0 +1,66 @@
+[E::hts_open] fail to open file '../data/bam/merged/HT_ROW39_N723/markdup_sorted.bam'
+[bam_sort_core] fail to open file ../data/bam/merged/HT_ROW39_N723/markdup_sorted.bam
+[E::hts_open] fail to open file '../data/bam/merged/HT_ROW39_N723/markdup_name_sorted.bam'
+samtools: failed to open "../data/bam/merged/HT_ROW39_N723/markdup_name_sorted.bam" for reading: No such file or directory
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+800000 GFF lines processed.
+900000 GFF lines processed.
+1000000 GFF lines processed.
+1100000 GFF lines processed.
+1200000 GFF lines processed.
+1300000 GFF lines processed.
+1400000 GFF lines processed.
+1500000 GFF lines processed.
+1600000 GFF lines processed.
+1700000 GFF lines processed.
+1800000 GFF lines processed.
+1900000 GFF lines processed.
+2000000 GFF lines processed.
+2100000 GFF lines processed.
+2200000 GFF lines processed.
+2300000 GFF lines processed.
+2400000 GFF lines processed.
+2500000 GFF lines processed.
+2600000 GFF lines processed.
+2619536 GFF lines processed.
+Error occured when reading beginning of SAM/BAM file.
+  
+  [Exception type: StopIteration, raised in count.py:88]
+[E::hts_open] fail to open file '../data/bam/merged/HT_ROW39_N723/markdup_name_sorted.bam'
+samtools: failed to open "../data/bam/merged/HT_ROW39_N723/markdup_name_sorted.bam" for reading: No such file or directory
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+800000 GFF lines processed.
+900000 GFF lines processed.
+1000000 GFF lines processed.
+1100000 GFF lines processed.
+1200000 GFF lines processed.
+1300000 GFF lines processed.
+1400000 GFF lines processed.
+1500000 GFF lines processed.
+1600000 GFF lines processed.
+1700000 GFF lines processed.
+1800000 GFF lines processed.
+1900000 GFF lines processed.
+2000000 GFF lines processed.
+2100000 GFF lines processed.
+2200000 GFF lines processed.
+2300000 GFF lines processed.
+2400000 GFF lines processed.
+2500000 GFF lines processed.
+2600000 GFF lines processed.
+2619536 GFF lines processed.
+Error occured when reading beginning of SAM/BAM file.
+  
+  [Exception type: StopIteration, raised in count.py:88]

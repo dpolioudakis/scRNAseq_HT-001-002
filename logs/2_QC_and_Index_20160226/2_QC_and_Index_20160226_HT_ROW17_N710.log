@@ -1,0 +1,20 @@
+Starting script... Fri Feb 26 15:30:41 PST 2016
+In dirs:
+../data/bam/SxaQSEQsXap096L1/HT_ROW17_N710 ../data/bam/SxaQSEQsXap096L2/HT_ROW17_N710
+Out dir:
+../data/bam/merged/HT_ROW17_N710
+2
+Merging:
+../data/bam/SxaQSEQsXap096L1/HT_ROW17_N710/Aligned.sortedByCoord.out.bam ../data/bam/SxaQSEQsXap096L2/HT_ROW17_N710/Aligned.sortedByCoord.out.bam
+Done merging...
+Running QC stats scripts from PicardTools...
+sorted reads file is now indexed
+reordered_reads.bam is now created
+alignment_stats.txt is now created
+rnaseq_stats.txt is now created
+gcbias_summary stats are now created
+duplicates are now marked
+marked-duplicates file is now sorted
+marked-duplicates file is now indexed
+cleaning up the extra .bam files
+Starting end... Fri Feb 26 15:33:05 PST 2016
